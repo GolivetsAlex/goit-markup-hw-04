@@ -1,5 +1,10 @@
 .solution-section {
     background-color: #2e2f42;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7)),
+     url(../images/people-office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .sol-paragraph {
@@ -61,31 +66,6 @@
     color: #404bbf
 }
 
-.strategy-section {
-    padding: 120px 0;
-}
-.strategy-section ul{
-    display: flex;
-    flex-direction: row;
-    flex-basis: calc((100% - 72px) / 4);
-    gap: 24px;
-}
-
-.section-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
-.our-team-section ul{
-    display: flex;
-    flex-direction: row;
-    flex-basis: calc((100% - 72px) / 4);
-    width: 100%;
-    gap: 24px;
-}
-
 .portfolio-section {
     padding: 120px 0;
 }
@@ -112,36 +92,3 @@
     object-fit: cover;
 }
 
-.footer-section{
-    background-color: #2e2f42;
-    padding: 100px 0;
-}
-
-.footer-ssection a{
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer-logo {
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--iris);
-}
-.footer-span-studio {
-    color: var(--cloud);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    max-width: 115px;
-}
-.footer-section p {
-    max-width: 264px;
-    color: #f4f4fd;
-    line-height: 1.5;
-    padding: 16px 0;
-}

@@ -1,0 +1,60 @@
+
+.team-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.our-team-section ul{
+    display: flex;
+    flex-direction: row;
+    flex-basis: calc((100% - 72px) / 4);
+    width: 100%;
+    gap: 24px;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.card-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+/* Рядок іконок: центруємо групу під текстом */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 8px;
+}
+
+/* Коло: саме воно центрує svg усередині себе */
+.social-link {
+    display: flex;
+    align-items: center;      /* центр по вертикалі */
+    justify-content: center;  /* центр по горизонталі */
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    
+}
+
+/* Колір самої іконки (fill: currentColor у спрайті) */
+.social-icon {
+    color: #fff;
+}
