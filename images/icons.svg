@@ -25,5 +25,25 @@
         <symbol id="facebook" viewBox="0 0 16 16" fill="none">
             <path fill="currentColor" d="M10.6647 2.6567l1.4607 0v-2.544C11.8734 0.078 11.0067 0 9.9974 0 7.8914 0 6.4487 1.3247 6.4487 3.7593V6h-2.324l0 2.844h2.324V16H9.298l0-7.1553 2.23 0 0.354-2.844-2.5846 0 0-1.9594c6e-4-0.822 0.222-1.3846 1.3673-1.3846z" />
         </symbol>
+        <symbol id="antenna" viewBox="0 0 64 64" fill="none" stroke="#2e2f42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="6" />
+            <path d="M32 26v-8m0 28v8" />
+            <path d="M23.51 23.51a12 12 0 0 0 0 16.97m16.98 0a12 12 0 0 0 0-16.97" />
+            <path d="M18.34 18.34a19.2 19.2 0 0 0 0 27.31m27.32 0a19.2 19.2 0 0 0 0-27.31" />
+            <path d="M32 44v14m-6 0h12" />
+        </symbol>
+        <symbol id="clock" viewBox="0 0 64 64" fill="none" stroke="#2e2f42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="24" />
+            <path d="M32 18v14l10 6" />
+        </symbol>
+        <symbol id="diagram" viewBox="0 0 64 64" fill="none" stroke="#2e2f42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 52h40M14 52V30m10 22V22m10 30V34m10 18V16" />
+            <path d="M14 26l10-10 10 8 12-14" />
+        </symbol>
+        <symbol id="astronaut" viewBox="0 0 64 64" fill="none" stroke="#2e2f42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="24" r="12" />
+            <path d="M24 21a8 8 0 0 1 16 0v3a8 8 0 0 1-16 0z" />
+            <path d="M22 34l-4 24m28-24l4 24M26 40h12M28 58h8" />
+        </symbol>
     </defs>
 </svg>
