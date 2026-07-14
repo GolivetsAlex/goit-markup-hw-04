@@ -36,7 +36,7 @@
 .container.footer-container {
     display: flex;
     flex-direction: row;
-    align-items: baseline;   /* лого і "Social media" на одній лінії */
+    align-items: baseline;
     justify-content: flex-start;
     gap: 120px;
 }
@@ -46,7 +46,6 @@
     flex-direction: column;
 }
 
-/* Напис "Social media" над іконками */
 .footer-socials {   
     font-weight: 500;
     font-size: 16px;
