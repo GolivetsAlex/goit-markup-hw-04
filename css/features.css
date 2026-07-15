@@ -24,7 +24,7 @@
 .strategy-section .card-text {
     padding-top: 8px;
 }
-.strategy-section ul{
+.features-list {
     display: flex;
     flex-direction: row;
     flex-basis: calc((100% - 72px) / 4);
