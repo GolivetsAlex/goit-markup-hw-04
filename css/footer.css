@@ -46,10 +46,11 @@
     margin-left: 120px;
 }
 
-.footer-socials {   
+.footer-socials {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding-bottom: 0;
     letter-spacing: 0.02em;
     color: #fff;
 }

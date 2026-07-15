@@ -14,7 +14,7 @@
     gap: 24px;
 }
 
-/* Картка учасника: багатошарова тінь */
+
 .team-card {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
@@ -23,7 +23,7 @@
                 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-/* Врапер контенту під фото: єдиний внутрішній відступ */
+
 .team-card-content {
     padding: 32px 16px;
 }
@@ -48,8 +48,7 @@ padding-top: 8px;
 padding-bottom: 8px;
 }
 
-/* Скидаємо власні падінги h3/p всередині врапера,
-   відступи задаємо через margin (8px між елементами) */
+
 .team-card-content .card-title {
     padding: 0;
     margin-bottom: 8px;
@@ -60,7 +59,7 @@ padding-bottom: 8px;
     margin-bottom: 8px;
 }
 
-/* Рядок іконок: центруємо групу під текстом */
+
 .socials {
     display: flex;
     justify-content: center;
@@ -71,11 +70,10 @@ padding-bottom: 8px;
     padding-top: 0;
 }
 
-/* Коло: саме воно центрує svg усередині себе */
 .social-link {
     display: flex;
-    align-items: center;      /* центр по вертикалі */
-    justify-content: center;  /* центр по горизонталі */
+    align-items: center;      
+    justify-content: center;  
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -88,7 +86,7 @@ padding-bottom: 8px;
     background-color: #404bbf;
 }
 
-/* Колір самої іконки (fill: currentColor у спрайті) */
+
 .social-icon {
     color: #f4f4fd;
     fill: #f4f4fd;
