@@ -9,7 +9,7 @@
     padding-bottom: 72px;
 }
 
-/* Сітка карток: 3 колонки */
+
 .portfolio-flex {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@
     padding-bottom: 120px;
 }
 
-/* Картка: базова тінь відсутня, перехід тіні при наведенні */
+
 .portfolio-card {
     flex-basis: calc((100% - 48px) / 3);
     box-shadow: none;
@@ -31,18 +31,16 @@
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* Обгортник зображення: контекст позиціонування та обрізання оверлею */
+
 .portfolio-image-wrapper {
     position: relative;
     overflow: hidden;
 }
 
-/* Прибираємо inline-проміжок під зображенням */
 .portfolio-image-wrapper img {
     display: block;
 }
 
-/* Слайд-ап оверлей: початково зсунутий вниз за межі області зображення */
 .portfolio-overlay {
     position: absolute;
     top: 0;
@@ -63,14 +61,13 @@
     transform: translateY(0);
 }
 
-/* Обгортник контенту: внутрішні відступи та бордюр, без проміжку зверху */
 .portfolio-content-wrapper {
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
     border-top: none;
 }
 
-/* Портфоліо-текст: ліве вирівнювання, 8px між заголовком та описом */
+
 .portfolio-content-wrapper .card-title {
     padding-top: 0;
     text-align: left;
