@@ -16,6 +16,14 @@
 .strategy-section {
     padding: 120px 0;
 }
+
+.strategy-section .card-title {
+    padding-top: 8px;
+}
+
+.strategy-section .card-text {
+    padding-top: 8px;
+}
 .strategy-section ul{
     display: flex;
     flex-direction: row;

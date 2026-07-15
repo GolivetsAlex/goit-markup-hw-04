@@ -38,12 +38,12 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: flex-start;
-    gap: 120px;
 }
 
 .footer-div-social {
     display: flex;
     flex-direction: column;
+    margin-left: 120px;
 }
 
 .footer-socials {   
@@ -57,6 +57,12 @@
 
 .footer-div-social .socials {
     gap: 16px;
+    padding-top: 16px;
+}
+
+.footer-div-social .social-link:hover,
+.footer-div-social .social-link:focus {
+    background-color: #31d0aa;
 }
 
 .footer-text{
